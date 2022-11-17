@@ -8,7 +8,7 @@ class Student
   end
 
   def goes_to
-    @name + " goes to " + @school
+    @name + " goes to" + @school
   end
 
 end
