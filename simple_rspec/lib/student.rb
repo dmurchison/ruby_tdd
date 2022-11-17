@@ -2,12 +2,13 @@ class Student
   attr_accessor :name, :grade, :school
 
   def initialize(name, grade, school)
+    @name = name
     @grade = grade
     @school = school
   end
 
   def goes_to
-    " goes to " + @school
+    @name + " goes to " + @school
   end
 
 end
